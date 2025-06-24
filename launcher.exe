@@ -1,0 +1,15 @@
+pak_ID_num = 123
+
+#Sprites = assets
+#Condition = environmental conditions
+#Data = identification
+#Display config = camera viewpoint
+#Preset = last saved point
+
+class Pak:
+    def __init__(self, sprites, condition, data, display_config, preset):
+        self.sprites = sprites
+        self.condition = condition
+        self.data = data
+        self.display_config = display_config
+        self.preset = preset
