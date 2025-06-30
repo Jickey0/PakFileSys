@@ -1,7 +1,7 @@
 from multiprocessing import Process, Queue, Pipe
 
-pak_storage_location = "C:/XLab_Projects/PakFileSys/mrsv-pak-storage/"
-pak_ID_num = 2
+pak_storage_location = "../PakFileSys/mrsv-pak-storage/"
+pak_ID_num = 2 
 
 pak_file = open(pak_storage_location + "placeholder" + str(pak_ID_num) + ".txt", "r")
 new_pak = pak_file.read()
